@@ -102,3 +102,90 @@ q {
   quotes: '' '';
 }
 /* CSS reset above */
+
+nav {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  -webkit-box-shadow: 12px 10px 21px 4px rgba(191, 182, 182, 0.87);
+  box-shadow: 12px 10px 21px 4px rgba(191, 182, 182, 0.87);
+}
+
+.navbar-title {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar-logo {
+  width: 30px;
+}
+
+.navbar-name {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: black;
+}
+
+.product {
+  margin: 2rem auto 0 auto;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.url-area {
+  width: 100%;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.url-area-name {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.url-area-logo {
+  width: 250px;
+}
+
+.url-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.url-input {
+  width: 45%;
+  height: 50px;
+  font-size: 1.8rem;
+  border: none;
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.url-button {
+  margin-top: 0.8rem;
+  width: 80px;
+  height: 40px;
+  font-size: 1.2rem;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(185, 90, 55);
+  border-radius: 10px;
+}
+
+.url-button:hover {
+  background-color: rgb(233, 108, 62);
+}
