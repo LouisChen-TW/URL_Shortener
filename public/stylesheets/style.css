@@ -247,3 +247,48 @@ nav {
 .url-output-button:hover {
   background-color: lightgreen;
 }
+
+.error-box {
+  width: 550px;
+  height: 200px;
+  background-color: bisque;
+  border: 5px dotted orangered;
+  border-radius: 20px;
+  margin: 3rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.error-msg {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.error-url {
+  font-weight: 800;
+  color: indianred;
+}
+
+.error-btn {
+  width: 100px;
+  height: 50px;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 5px;
+  border: none;
+  text-align: center;
+  background-color: rgb(228, 93, 15);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.error-btn:hover {
+  color: rgb(56, 56, 56);
+  background-color: rgb(255, 169, 119);
+}
