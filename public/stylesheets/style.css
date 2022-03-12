@@ -188,4 +188,62 @@ nav {
 
 .url-button:hover {
   background-color: rgb(233, 108, 62);
+  cursor: pointer;
+}
+
+.url-output {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.3rem;
+  padding: 1rem;
+  margin-bottom: 1.3rem;
+  background-color: cornsilk;
+  border: 3px dashed firebrick;
+  border-radius: 2rem;
+}
+
+.url-output-display {
+  /* display: none; */
+}
+
+.url-output-info {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: brown;
+}
+
+.url-output-area {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.url-output-text {
+  width: 400px;
+  height: 50px;
+  border: none;
+  background-color: rgb(254, 255, 168);
+  text-align: center;
+  font-size: 2rem;
+}
+
+.url-output-button {
+  width: 80px;
+  height: 40px;
+  font-size: 1.2rem;
+  padding: 5px;
+  border: none;
+  text-align: center;
+  background-color: darkgreen;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.url-output-button:hover {
+  background-color: lightgreen;
 }
