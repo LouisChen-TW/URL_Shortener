@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://localhost/url-shorter')
+mongoose.connect('mongodb://localhost/url-shortener')
 
 const db = mongoose.connection
 
