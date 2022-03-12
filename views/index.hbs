@@ -1,16 +1,3 @@
-<header>
-  <nav>
-    <div class='navbar-title'>
-      <img
-        class='navbar-logo'
-        src='https://assets-lighthouse.alphacamp.co/uploads/image/file/16716/ExportedContentImage_00.png'
-        alt=''
-      />
-      <a href='./' class='navbar-name'>URL Shortener</a>
-    </div>
-  </nav>
-</header>
-
 <section class='product'>
   <div class='url-area'>
     <span class='url-area-name'>URL Shortener</span>
@@ -19,6 +6,14 @@
       alt=''
       class='url-area-logo'
     />
+  </div>
+
+  <div class='url-output url-output-display'>
+    <p class='url-output-info'>Success! Please use this link</p>
+    <div class='url-output-area'>
+      <input type='url' class='url-output-text' disabled value='{{url}}' />
+      <button class='url-output-button'>Copy</button>
+    </div>
   </div>
 
   <form action='./' method='POST' class='url-form'>
