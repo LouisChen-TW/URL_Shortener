@@ -6,6 +6,10 @@ const urlSchema = new Schema({
     type: String,
     required: true,
   },
+  randomIndex: {
+    type: String,
+    required: true,
+  },
   shortenUrl: {
     type: String,
     required: true,
